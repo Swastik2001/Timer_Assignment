@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Routine Starting in...</h1>
+  <div class="container">
+    <div class="timer-wrapper">
+      <div id="progress-bar" class="progress-bar">
+        <div id="progress-fill" class="progress-fill"></div>
+        <div id="timer" class="timer">00:00</div>
+      </div>
+      <div class="buttons">
+        <button id="add-time" class="btn">+ 10 seconds</button>
+        <button id="stop-timer" class="btn">|| Stop</button>
+      </div>
+    </div>
+    <div class="task-card" id="task-card">
+      <div class="task">Task: Cleansing
+        <br>
+        <br>
+        ⏱️60s
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
